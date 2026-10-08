@@ -69,7 +69,7 @@ export const PERSONAL_INFO = {
     },
   },
   workExperience: {
-    company: "Matrix Business India Pvt. Ltd., Chennai",
+    company: "Matrix Business Services India Pvt. Ltd., Chennai",
     period: "SEP 2024 – JAN 2026",
     role: "Executive – Academic Verification (Education Check)",
     description: "Working in a leading background verification (BGV) company specializing in academic verification.",
@@ -78,7 +78,7 @@ export const PERSONAL_INFO = {
       "Ensuring accuracy, compliance, and timely completion of verification cases.",
       "Awarded Star Performer of the Month – July, recognizing high-quality output and performance.",
     ],
-    award: "Star Performer of the Month – July",
+    award: "Star Performer of the Month – July 2025",
   },
   heroRoles: [
     "Software Developer",
