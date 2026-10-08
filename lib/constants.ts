@@ -96,7 +96,7 @@ export const PERSONAL_INFO = {
   ],
   socialLinks: {
     github: "https://github.com/Thanigaivelk-official",
-    linkedin: "https://www.linkedin.com/in/thanigaivelk",
+    linkedin: "https://www.linkedin.com/in/thanigaivel-kannan-38328b24b?",
     youtube: "https://youtube.com/@thanigaivel-tech",
     email: "mailto:thanigaivelk.official@gmail.com",
     emailRaw: "thanigaivelk.official@gmail.com",
