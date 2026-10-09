@@ -78,7 +78,7 @@ export const PERSONAL_INFO = {
       "Ensuring accuracy, compliance, and timely completion of verification cases.",
       "Awarded Star Performer of the Month – July, recognizing high-quality output and performance.",
     ],
-    award: "Star Performer of the Month – July 2025",
+    award: "Star Performer of the Month – July",
   },
   heroRoles: [
     "Software Developer",
@@ -132,10 +132,10 @@ export const STATS: StatItem[] = [
     sublabel: "St. Joseph's College (2018-2021)",
   },
   {
-    numericValue: 1,
+    numericValue: 5,
     suffix: "★",
     label: "Star Performer",
-    sublabel: "Matrix Business India (July)",
+    sublabel: "Matrix Business India (July) 2025",
   },
   {
     numericValue: 100,
@@ -233,7 +233,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 
 export const TIMELINE_JOURNEY = {
   workExperience: {
-    company: "Matrix Business India Pvt. Ltd., Chennai",
+    company: "Matrix Business Services India Pvt. Ltd., Chennai",
     period: "SEP 2024 – JAN 2026",
     role: "Executive – Academic Verification (Education Check)",
     description:
@@ -241,7 +241,7 @@ export const TIMELINE_JOURNEY = {
     highlights: [
       "Responsible for validating educational records, documents, and institutional authenticity.",
       "Ensuring accuracy, compliance, and timely completion of verification cases.",
-      "Awarded Star Performer of the Month – July, recognizing high-quality output and performance.",
+      "Awarded Star Performer of the Month – July 2025, recognizing high-quality output and performance.",
     ],
     award: "Awarded Star Performer of the Month – July",
   },
