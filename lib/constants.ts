@@ -234,7 +234,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 export const TIMELINE_JOURNEY = {
   workExperience: {
     company: "Matrix Business Services India Pvt. Ltd., Chennai",
-    period: "SEP 2024 – JAN 2026",
+    period: "2024 – 2026",
     role: "Executive – Academic Verification (Education Check)",
     description:
       "Working in a leading background verification (BGV) company specializing in academic verification.",
