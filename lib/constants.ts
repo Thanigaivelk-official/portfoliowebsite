@@ -103,7 +103,7 @@ export const PERSONAL_INFO = {
     phone: "tel:+919626753326",
     phoneRaw: "+91 9626753326",
   },
-  resumePath: "/resume.pdf",
+  resumePath: "/ThanigaivelKannan_Resume.pdf",
 };
 
 export const NAV_ITEMS: NavItem[] = [
