@@ -345,6 +345,25 @@ export const PROJECTS: ProjectItem[] = [
     highlightText: "Interactive 3D & Next.js",
   },
   {
+  id: "employee-management-hr-automation",
+  title: "Employee Management & HR Automation System",
+  badge: "Python & Django",
+  category: "Software Development",
+  technologies: ["Python", "Django", "MySQL", "HTML", "CSS", "JavaScript"],
+  description:
+    "Developed a web-based HR management application using Python and Django to streamline employee records, attendance, leave management, departmental administration, and payroll reporting.",
+  features: [
+    "Developed a web-based HR management application to maintain employee records, departments, attendance, leave requests, and payroll reports",
+    "Implemented authentication and role-based access control for administrators, HR personnel, managers, and employees",
+    "Designed relational database models using MySQL and implemented complete CRUD operations",
+    "Implemented search, filtering, and report generation features for efficient HR data management",
+    "Built a responsive dashboard to simplify employee administration and streamline HR workflows",
+  ],
+  githubUrl: "https://github.com/Thanigaivelk-official/Employee-Management-HR-Automation-System",
+  liveUrl: "https://github.com/Thanigaivelk-official/Employee-Management-HR-Automation-System",
+  highlightText: "Django HR Automation & Role-Based Access",
+},
+  {
     id: "data-analysis-automation",
     title: "Data Processing & MIS Automation Pipeline",
     badge: "Data & Automation",
