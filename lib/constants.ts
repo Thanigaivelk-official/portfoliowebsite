@@ -302,8 +302,8 @@ export const PROJECTS: ProjectItem[] = [
       "Designed user-centered UI components to enhance accessibility",
       "Strict data integrity checks and transaction security guards",
     ],
-    githubUrl: "https://github.com/Thanigaivelk-official/secure-data-deduplication-loan",
-    liveUrl: "https://github.com/Thanigaivelk-official/secure-data-deduplication-loan",
+    githubUrl: "https://github.com/Thanigaivelk-official/Secure-Data-Deduplication-with-Efficient-Re-Encryption-System-for-Loan-Documents",
+    liveUrl: "https://github.com/Thanigaivelk-official/Secure-Data-Deduplication-with-Efficient-Re-Encryption-System-for-Loan-Documents",
     highlightText: "AES Encryption & Deduplication",
   },
   {
@@ -341,7 +341,7 @@ export const PROJECTS: ProjectItem[] = [
       "Targeting WCAG AA standards with prefers-reduced-motion support",
     ],
     githubUrl: "https://github.com/Thanigaivelk-official/portfoliowebsite",
-    liveUrl: "https://thanigaivel.dev",
+    liveUrl: "https://portfoliowebsite-red-nu.vercel.app/",
     highlightText: "Interactive 3D & Next.js",
   },
   {
