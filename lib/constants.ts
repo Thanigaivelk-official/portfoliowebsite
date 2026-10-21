@@ -360,7 +360,7 @@ export const PROJECTS: ProjectItem[] = [
     "Built a responsive dashboard to simplify employee administration and streamline HR workflows",
   ],
   githubUrl: "https://github.com/Thanigaivelk-official/Employee-Management-HR-Automation-System",
-  liveUrl: "https://github.com/Thanigaivelk-official/Employee-Management-HR-Automation-System",
+  liveUrl: "https://employee-management-hr-automation-system.onrender.com/accounts/login/",
   highlightText: "Django HR Automation & Role-Based Access",
 },
   {
