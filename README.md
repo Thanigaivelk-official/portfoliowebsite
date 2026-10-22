@@ -9,7 +9,7 @@ A world-class personal portfolio web application built with **Next.js (App Route
 - **Owner:** Thanigaivel K
 - **Role:** Software Developer | IT Graduate
 - **GitHub Repository:** [https://github.com/Thanigaivelk-official/portfoliowebsite](https://github.com/Thanigaivelk-official/portfoliowebsite)
-- **LinkedIn:** [https://www.linkedin.com/in/thanigaivelk](https://www.linkedin.com/in/thanigaivelk)
+- **LinkedIn:** [https://www.linkedin.com/in/thanigaivelk](https://www.linkedin.com/in/thanigaivel-kannan)
 - **Education:** MCA (CGPA 8.99, Annamalai University, 2021-2023) | BCA (CGPA 8.56, St. Joseph's College, 2018-2021)
 - **Core Technologies:** Java, Python, PHP, JavaScript, SQL, MySQL, Oracle, React, Next.js, TypeScript
 
