@@ -46,12 +46,44 @@ export function Contact() {
 
     setStatus("loading");
 
-    // Simulate reliable dispatch & formulate mailto fallback option
-    setTimeout(() => {
-      setStatus("success");
-      setStatusMessage("Thank you! Your message inquiry has been recorded. You can also reach out directly via email.");
-      setFormData({ name: "", email: "", subject: "", message: "" });
-    }, 1200);
+    try {
+      const accessKey =
+        process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY ||
+        "b4b9ebd1-3a8c-47cb-b8f2-9f3ffa6ecd91";
+
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: accessKey,
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject || `New Contact Message from ${formData.name}`,
+          message: formData.message,
+          from_name: "Portfolio Contact Form",
+        }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        setStatus("success");
+        setStatusMessage("Thank you! Your message has been sent successfully to Thanigaivel.");
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        setStatus("error");
+        setStatusMessage(
+          data.message || "Failed to send message. Please try again or reach out via email directly."
+        );
+      }
+    } catch (err) {
+      console.error("Submission error:", err);
+      setStatus("error");
+      setStatusMessage("Failed to send message. Please try again or email directly.");
+    }
   };
 
   return (
