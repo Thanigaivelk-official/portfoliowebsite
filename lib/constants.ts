@@ -362,25 +362,6 @@ export const PROJECTS: ProjectItem[] = [
   liveUrl: "https://employee-management-hr-automation-system.onrender.com/accounts/login/",
   highlightText: "Django HR Automation & Role-Based Access",
 },
-  {
-    id: "data-analysis-automation",
-    title: "Data Processing & MIS Automation Pipeline",
-    badge: "Data & Automation",
-    category: "Data Engineering",
-    technologies: ["Python", "NumPy", "MySQL", "Excel Advanced", "Data Validation"],
-    description:
-      "Structured data workflows for automated academic and corporate verification, MIS reporting, and analytical data transformation.",
-    features: [
-      "Python scripts for data cleaning, sanitization, and structured transformation",
-      "Direct MySQL database synchronization and query optimization",
-      "Advanced Excel integration (VLOOKUP, XLOOKUP, Pivot Tables, Conditional Formatting)",
-      "Automated verification pipeline reducing processing turnaround time",
-      "Error detection algorithms with detailed logging and validation rules",
-    ],
-    githubUrl: "https://github.com/Thanigaivelk-official/data-processing-automation",
-    liveUrl: "https://github.com/Thanigaivelk-official/data-processing-automation",
-    highlightText: "Python & MIS Automation",
-  },
 ];
 
 export const SERVICES: ServiceItem[] = [
