@@ -98,6 +98,7 @@ export const PERSONAL_INFO = {
     github: "https://github.com/Thanigaivelk-official",
     linkedin: "https://www.linkedin.com/in/thanigaivel-kannan",
     email: "mailto:thanigaivelk.official@gmail.com",
+    youtube: "https://youtube.com/@thanigaivel-tech",
     emailRaw: "thanigaivelk.official@gmail.com",
     phone: "tel:+919626753326",
     phoneRaw: "+91 9626753326",
