@@ -32,11 +32,11 @@ export function Skills() {
   const filterTabs = [
     "All",
     "Programming",
-    "Frontend Development",
-    "Backend Development",
-    "Databases",
-    "Development Tools",
-    "Computer Science Concepts",
+    "Databases & RDBMS",
+    "Technical Concepts & Security",
+    "Tools & Frameworks",
+    "Data Analysis & Business Tools",
+    "Core Strengths",
   ];
 
   const displayedCategories =
