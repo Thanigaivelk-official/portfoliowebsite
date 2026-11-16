@@ -73,15 +73,6 @@ export function Footer() {
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href={PERSONAL_INFO.socialLinks.youtube}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="YouTube channel"
-                className="p-2 rounded-lg bg-white/[0.04] border border-white/[0.08] text-slate-400 hover:text-white hover:border-white/[0.2] transition-colors"
-              >
-                <Youtube className="w-4 h-4" />
-              </a>
-              <a
                 href={PERSONAL_INFO.socialLinks.email}
                 aria-label="Send Email"
                 className="p-2 rounded-lg bg-white/[0.04] border border-white/[0.08] text-slate-400 hover:text-white hover:border-white/[0.2] transition-colors"
