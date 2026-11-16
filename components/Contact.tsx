@@ -10,7 +10,6 @@ import {
   AlertCircle,
   Linkedin,
   Github,
-  Youtube,
   MapPin,
   Clock,
   Sparkles,
@@ -345,16 +344,6 @@ export function Contact() {
                   >
                     <Github className="w-5 h-5 text-slate-300 group-hover:text-primary-light transition-colors" />
                     <span className="text-[11px] font-mono text-slate-400 group-hover:text-white mt-1.5">GitHub</span>
-                  </a>
-
-                  <a
-                    href={PERSONAL_INFO.socialLinks.youtube}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex flex-col items-center justify-center p-3 rounded-xl bg-white/[0.04] border border-white/[0.08] hover:border-primary/50 hover:bg-primary/10 transition-all group"
-                  >
-                    <Youtube className="w-5 h-5 text-slate-300 group-hover:text-primary-light transition-colors" />
-                    <span className="text-[11px] font-mono text-slate-400 group-hover:text-white mt-1.5">YouTube</span>
                   </a>
                 </div>
               </div>
