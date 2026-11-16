@@ -362,6 +362,36 @@ export const PROJECTS: ProjectItem[] = [
   liveUrl: "https://employee-management-hr-automation-system.onrender.com/accounts/login/",
   highlightText: "Django HR Automation & Role-Based Access",
 },
+  {
+  id: "aninova-anime-ott-platform",
+  title: "AniNova – Anime OTT Streaming Platform",
+  badge: "Python & Django",
+  category: "Software Development",
+  technologies: [
+    "Python",
+    "Django",
+    "Django REST Framework",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Bootstrap",
+    "HLS.js"
+  ],
+  description:
+    "Built a full-stack anime streaming platform using Python, Django, and MySQL with user accounts, HLS video playback, VIP subscription plans with Razorpay (test mode) payments, watchlists, recommendations, and an admin dashboard for managing the catalog.",
+  features: [
+    "Built a Django and MySQL backend with modular apps for accounts, anime catalog (titles, seasons, episodes, genres), streaming, subscriptions, payments, watchlist, recommendations, and admin dashboard",
+    "Developed a video player using HLS.js adaptive streaming with skip opening/ending controls, next-episode autoplay, season and episode navigation, and audio and subtitle track selection",
+    "Implemented watch-progress tracking that auto-saves viewing position through a REST API endpoint",
+    "Integrated Razorpay in test mode for VIP subscription plans, with payment signature validation",
+    "Added user profile management with photo upload (type and size validation), live image preview, and avatar reset",
+    "Built a content-based recommendation module and an admin dashboard, and wrote automated tests for the application",
+  ],
+  githubUrl: "https://github.com/Thanigaivelk-official/AniNova-Anime-OTT-Platform",
+  liveUrl: "https://aninova-anime-ott-platform-1.onrender.com/",
+  highlightText: "Django OTT Streaming with HLS & Razorpay",
+},
 ];
 
 export const SERVICES: ServiceItem[] = [
