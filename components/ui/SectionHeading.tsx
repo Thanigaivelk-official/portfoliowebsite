@@ -55,7 +55,7 @@ export function SectionHeading({
       >
         {title}{" "}
         {highlightText && (
-          <span className="bg-gradient-to-r from-primary-light via-secondary-light to-accent bg-clip-text text-transparent">
+          <span className="text-primary-light">
             {highlightText}
           </span>
         )}
@@ -67,7 +67,7 @@ export function SectionHeading({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.55, delay: 0.2 }}
-          className="mt-4 text-base md:text-lg text-muted leading-relaxed"
+          className="mt-4 text-base md:text-lg text-slate-300 leading-relaxed"
         >
           {description}
         </motion.p>

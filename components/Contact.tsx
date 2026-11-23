@@ -135,14 +135,14 @@ export function Contact() {
                       value={formData.name}
                       onChange={handleChange}
                       placeholder="e.g. Alex Johnson"
-                      className="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/[0.1] text-white placeholder-slate-500 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/[0.1] text-white placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                     />
                   </div>
 
                   <div>
                     <label
                       htmlFor="email"
-                      className="block text-xs font-mono uppercase text-muted tracking-wider mb-1.5"
+                      className="block text-xs font-mono uppercase text-slate-300 tracking-wider mb-1.5"
                     >
                       Your Email <span className="text-rose-400">*</span>
                     </label>
@@ -154,7 +154,7 @@ export function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       placeholder="alex@company.com"
-                      className="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/[0.1] text-white placeholder-slate-500 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/[0.1] text-white placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                     />
                   </div>
                 </div>
@@ -162,7 +162,7 @@ export function Contact() {
                 <div>
                   <label
                     htmlFor="subject"
-                    className="block text-xs font-mono uppercase text-muted tracking-wider mb-1.5"
+                    className="block text-xs font-mono uppercase text-slate-300 tracking-wider mb-1.5"
                   >
                     Subject
                   </label>
@@ -173,14 +173,14 @@ export function Contact() {
                     value={formData.subject}
                     onChange={handleChange}
                     placeholder="Opportunity / Collaboration / Inquiry"
-                    className="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/[0.1] text-white placeholder-slate-500 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/[0.1] text-white placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                   />
                 </div>
 
                 <div>
                   <label
                     htmlFor="message"
-                    className="block text-xs font-mono uppercase text-muted tracking-wider mb-1.5"
+                    className="block text-xs font-mono uppercase text-slate-300 tracking-wider mb-1.5"
                   >
                     Message <span className="text-rose-400">*</span>
                   </label>
@@ -192,7 +192,7 @@ export function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     placeholder="Hello Thanigaivel, I reviewed your portfolio and would like to connect regarding..."
-                    className="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/[0.1] text-white placeholder-slate-500 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-xl bg-white/[0.04] border border-white/[0.1] text-white placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none"
                   />
                 </div>
 

@@ -55,32 +55,32 @@ export function About() {
               <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06]">
                 <GraduationCap className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-sm font-semibold text-white">MCA Graduate (2023)</h4>
-                  <p className="text-xs text-muted mt-0.5">Annamalai University</p>
+                  <h3 className="text-sm font-semibold text-white">MCA Graduate (2023)</h3>
+                  <p className="text-xs text-slate-300 mt-0.5">Annamalai University</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06]">
                 <Code2 className="w-5 h-5 text-primary-light shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-sm font-semibold text-white">Full-Stack Capability</h4>
-                  <p className="text-xs text-muted mt-0.5">Frontend, Backend & Databases</p>
+                  <h3 className="text-sm font-semibold text-white">Full-Stack Capability</h3>
+                  <p className="text-xs text-slate-300 mt-0.5">Frontend, Backend & Databases</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06]">
                 <Sparkles className="w-5 h-5 text-secondary-light shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-sm font-semibold text-white">Problem Solving</h4>
-                  <p className="text-xs text-muted mt-0.5">Data structures & clean logic</p>
+                  <h3 className="text-sm font-semibold text-white">Problem Solving</h3>
+                  <p className="text-xs text-slate-300 mt-0.5">Data structures & clean logic</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06]">
                 <BookOpen className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-sm font-semibold text-white">Continuous Learner</h4>
-                  <p className="text-xs text-muted mt-0.5">Adapts rapidly to modern stacks</p>
+                  <h3 className="text-sm font-semibold text-white">Continuous Learner</h3>
+                  <p className="text-xs text-slate-300 mt-0.5">Adapts rapidly to modern stacks</p>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ export function About() {
                   <h3 className="mt-2 text-sm font-semibold text-slate-200">
                     {stat.label}
                   </h3>
-                  <p className="text-[11px] font-mono text-muted mt-0.5">
+                  <p className="text-xs font-mono text-slate-300 mt-0.5">
                     {stat.sublabel}
                   </p>
                 </div>

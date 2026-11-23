@@ -72,7 +72,7 @@ export function Hero() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/[0.05] border border-white/[0.1] text-xs font-mono text-slate-300 backdrop-blur-md mb-6"
             >
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
+              <span className="w-2 h-2 rounded-full bg-emerald-400" />
               <span>Available for Opportunities • Software Developer | IT Graduate</span>
             </motion.div>
 
@@ -103,11 +103,11 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="mt-3 flex items-center gap-2 text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-tight"
             >
-              <span className="text-muted">&gt;</span>
-              <span className="bg-gradient-to-r from-primary-light via-secondary-light to-accent bg-clip-text text-transparent">
+              <span className="text-slate-500">&gt;</span>
+              <span className="text-primary-light">
                 {displayText}
               </span>
-              <span className="w-2.5 h-7 md:h-9 bg-accent inline-block animate-pulse" />
+              <span className="w-2.5 h-7 md:h-9 bg-primary-light inline-block" />
             </motion.div>
 
             {/* Exact Hero Bio */}

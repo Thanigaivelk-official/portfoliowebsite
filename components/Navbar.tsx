@@ -42,16 +42,16 @@ export function Navbar() {
             className="group flex items-center gap-2.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg p-1"
             aria-label="Thanigaivel - Back to top"
           >
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-primary via-secondary to-accent p-px shadow-neon-primary transition-transform duration-300 group-hover:scale-105">
+            <div className="w-9 h-9 rounded-xl bg-white/[0.08] border border-white/[0.12] transition-transform duration-300 group-hover:scale-105">
               <div className="w-full h-full bg-[#0B1120] rounded-[11px] flex items-center justify-center font-mono font-bold text-sm text-white">
-                <span className="text-accent">&lt;</span>T<span className="text-primary-light">/&gt;</span>
+                <span className="text-primary-light">&lt;</span>T<span className="text-primary-light">/&gt;</span>
               </div>
             </div>
             <div className="flex flex-col">
               <span className="font-bold tracking-tight text-white group-hover:text-primary-light transition-colors duration-200 text-base md:text-lg">
                 Thanigaivel K
               </span>
-              <span className="text-[10px] font-mono text-muted tracking-widest uppercase -mt-1 hidden sm:block">
+              <span className="text-xs font-mono text-slate-400 tracking-wider uppercase -mt-0.5 hidden sm:block">
                 Software Dev
               </span>
             </div>
