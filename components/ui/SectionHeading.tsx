@@ -39,8 +39,8 @@ export function SectionHeading({
           transition={{ duration: 0.5 }}
           className={cn("mb-4 inline-flex items-center", isCenter ? "justify-center" : "justify-start")}
         >
-          <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono font-medium tracking-wide uppercase bg-primary/10 border border-primary/25 text-primary-light shadow-sm">
-            <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-medium tracking-wide uppercase bg-primary/10 border border-primary/20 text-primary-light">
+            <span className="w-1.5 h-1.5 rounded-full bg-accent/80" />
             {badge}
           </span>
         </motion.div>

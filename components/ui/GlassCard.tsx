@@ -20,9 +20,9 @@ export function GlassCard({
 }: GlassCardProps) {
   const glowStyles = {
     none: "",
-    primary: "before:absolute before:-inset-px before:rounded-2xl before:bg-gradient-to-r before:from-primary/20 before:to-secondary/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:-z-10",
-    secondary: "before:absolute before:-inset-px before:rounded-2xl before:bg-gradient-to-r before:from-secondary/20 before:to-accent/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:-z-10",
-    accent: "before:absolute before:-inset-px before:rounded-2xl before:bg-gradient-to-r before:from-accent/20 before:to-primary/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:-z-10",
+    primary: "before:absolute before:-inset-px before:rounded-2xl before:bg-gradient-to-r before:from-primary/10 before:to-secondary/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:-z-10",
+    secondary: "before:absolute before:-inset-px before:rounded-2xl before:bg-gradient-to-r before:from-secondary/10 before:to-accent/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:-z-10",
+    accent: "before:absolute before:-inset-px before:rounded-2xl before:bg-gradient-to-r before:from-accent/10 before:to-primary/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:-z-10",
   };
 
   return (
